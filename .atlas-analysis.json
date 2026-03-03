@@ -1,0 +1,179 @@
+{
+  "projectType": "framework",
+  "projectName": "TanStack Router",
+  "projectDescription": "Type-safe, client-first routing framework with built-in caching and full-stack capabilities for React, Solid, and Vue.",
+  "theme": "palm",
+  "primaryColor": "#00C7B7",
+  "lightColor": "#84E1D8",
+  "darkColor": "#00A79D",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Router",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "router/introduction",
+              "router/quick-start",
+              "router/installation",
+              "router/comparison",
+              "router/faq"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "router/concepts/routing",
+              "router/concepts/route-trees",
+              "router/concepts/route-matching",
+              "router/concepts/type-safety",
+              "router/concepts/search-params"
+            ]
+          },
+          {
+            "group": "Routing",
+            "pages": [
+              "router/routing/file-based",
+              "router/routing/code-based",
+              "router/routing/virtual-routes",
+              "router/routing/file-naming"
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              "router/guides/navigation",
+              "router/guides/data-loading",
+              "router/guides/search-params",
+              "router/guides/path-params",
+              "router/guides/outlets",
+              "router/guides/code-splitting",
+              "router/guides/preloading",
+              "router/guides/ssr",
+              "router/guides/authenticated-routes",
+              "router/guides/error-handling",
+              "router/guides/scroll-restoration"
+            ]
+          },
+          {
+            "group": "API Reference",
+            "pages": [
+              "router/api/router",
+              "router/api/route",
+              "router/api/link",
+              "router/api/hooks",
+              "router/api/components"
+            ]
+          },
+          {
+            "group": "Integrations",
+            "pages": [
+              "router/integrations/tanstack-query",
+              "router/integrations/validation"
+            ]
+          },
+          {
+            "group": "Tools",
+            "pages": [
+              "router/tools/devtools",
+              "router/tools/cli",
+              "router/tools/eslint-plugin"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Start",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "start/introduction",
+              "start/quick-start",
+              "start/installation",
+              "start/comparison"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "start/concepts/architecture",
+              "start/concepts/ssr",
+              "start/concepts/server-functions",
+              "start/concepts/streaming",
+              "start/concepts/routing"
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              "start/guides/getting-started",
+              "start/guides/server-functions",
+              "start/guides/data-loading",
+              "start/guides/mutations",
+              "start/guides/middleware",
+              "start/guides/authentication",
+              "start/guides/deployment",
+              "start/guides/static-site-generation"
+            ]
+          },
+          {
+            "group": "API Reference",
+            "pages": [
+              "start/api/server",
+              "start/api/client",
+              "start/api/config",
+              "start/api/middleware"
+            ]
+          },
+          {
+            "group": "Migration",
+            "pages": [
+              "start/migration/from-nextjs",
+              "start/migration/from-remix"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "100% inferred TypeScript support with end-to-end type safety",
+    "Type-safe path params, search params, and navigation",
+    "Built-in SWR caching for route loaders",
+    "File-based and code-based routing with automatic route generation",
+    "First-class search params as stateful URL state management",
+    "Path and search parameter schema validation",
+    "Server-side rendering (SSR) and streaming support",
+    "Full-stack framework (TanStack Start) with server functions",
+    "Nested layouts and pathless layout routes",
+    "Automatic route prefetching and parallel data loading",
+    "Route masking for URL management",
+    "Multi-framework support (React, Solid, Vue)",
+    "DevTools for debugging router state",
+    "ESLint plugin for best practices"
+  ],
+  "publicApiSurface": [
+    "Router - Core router instance",
+    "Route - Route configuration and definitions",
+    "Link - Type-safe navigation component",
+    "useNavigate - Programmatic navigation hook",
+    "useParams - Access path parameters",
+    "useSearch - Access and update search parameters",
+    "useLoaderData - Access route loader data",
+    "useRouter - Access router instance",
+    "useMatch - Access current route match",
+    "Outlet - Render child routes",
+    "createFileRoute - File-based route definition",
+    "createRoute - Code-based route definition",
+    "RouterProvider - Root router provider component",
+    "createRouter - Create router instance",
+    "redirect - Server and client redirects",
+    "notFound - Throw not found errors",
+    "createServerFn - Define server functions (Start)",
+    "useServerFn - Use server functions (Start)",
+    "StartServer - Server entry point (Start)",
+    "StartClient - Client entry point (Start)"
+  ]
+}
